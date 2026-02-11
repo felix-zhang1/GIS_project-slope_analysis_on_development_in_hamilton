@@ -1,7 +1,7 @@
 # Parcel-Level Slope Analysis (Hamilton City)
 
 Gongfan Zhang
-Technical report date: 09/02/2026 
+Technical report summary date: 09/02/2026 
 
 ---
 
@@ -117,9 +117,9 @@ Across all parcels:
 
 However, parcels with ≥10% steep slope coverage form clear spatial clusters.
 
-Parcels with ≥10% Steep Slope Coverage
+<p align="center"> <img src="images/parcel_level_all parcels_10plus_steep_slope.jpg" width="800"> </p>
 
-<p align="center"> <img src="images/4.parcel_level_all parcels ≥10% steep slope.jpg" width="800"> </p>
+Parcels with ≥10% Steep Slope Coverage
 
 These parcels are:
 
@@ -133,3 +133,28 @@ This confirms that slope constraints are site-specific and parcel-dependent.
 
 ---
 
+# Part 4 — Limitations & Future work
+## 4.1 Limitations
+
+* Scope
+The analysis considers slope only. Other constraints (soil, flood risk, infrastructure, access) are not included.
+
+* DEM Resolution
+The 1 m LiDAR DEM captures fine terrain detail but may introduce local noise. No smoothing was applied.
+
+* Classification Assumptions
+Steep slope is defined as ≥18°. Parcel exposure is grouped into fixed 5% intervals. These thresholds are analytical choices and do not represent engineering cost breakpoints.
+
+## 4.2 Future Work
+
+* Multi-Constraint Analysis
+Integrate soil, flood, and infrastructure layers for a broader feasibility assessment.
+
+* Cost Linkage
+Relate slope exposure to earthworks intensity and construction implications.
+
+* Capacity Modelling
+Incorporate parcel-level slope metrics into development capacity or yield models.
+
+* Sensitivity Testing
+Evaluate alternative slope thresholds, interval schemes, and DEM resolutions.
