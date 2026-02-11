@@ -13,6 +13,8 @@ The full automated workflow is implemented in:
 
 ***Note: Input datasets and regenerated outputs are not included in this GitHub repo.*** 
 
+Detailed instruction please see: 👉 **[`automation_scripts_instruction.pdf`](./automation_scripts_instruction.pdf)**
+
 ---
 
 ## Software Requirements
