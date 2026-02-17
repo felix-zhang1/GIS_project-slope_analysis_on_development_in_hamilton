@@ -119,14 +119,23 @@ Constraint areas were removed from parcels before slope metrics were calculated.
 
 ## Automation
 
-The workflow is implemented as an automated Python/ArcPy pipeline.
+The full workflow is implemented as a modular Python/ArcPy pipeline within ArcGIS Pro.
+
+When the required input datasets are supplied in the predefined folder structure, the pipeline automatically executes the complete analysis sequence — from slope derivation to parcel-level statistics and figure generation.
+
+Execution typically takes several minutes, significantly reducing processing time compared to manual GIS workflows, which may require several hours of step-by-step operations.
+
+### Key Advantages
+
+* End-to-end automation of raster and vector processing
+* Fully reproducible and regenerable outputs
+* Modular design allowing parameter modification (e.g., slope thresholds)
+* Suitable for re-running when new datasets or policy assumptions are introduced
 
 Outputs were validated through:
 
 * Manual processing comparison
-* Visual inspection of spatial patterns
-
-The workflow is fully reproducible.
+* Visual inspection of spatial consistency
 
 ---
 
