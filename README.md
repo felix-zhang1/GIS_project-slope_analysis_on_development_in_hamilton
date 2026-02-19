@@ -13,7 +13,9 @@ The full automated workflow is implemented in:
 
 ***Note: Input datasets and regenerated outputs are not included in this GitHub repo.*** 
 
-Detailed instruction please see: 👉 **[`automation_scripts_instruction.pdf`](./automation_scripts_instruction.pdf)**
+Detailed automation instruction please see: 👉 **[`automation_scripts_instruction.pdf`](./automation_scripts_instruction.pdf)**
+
+Detailed technical report please: 👉 **[`Slope_Analysis_Technical_Report_Gongfan_Zhang.pdf`](./Slope_Analysis_Technical_Report_Gongfan_Zhang.pdf)**
 
 ---
 
